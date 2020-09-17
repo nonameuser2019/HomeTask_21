@@ -1,7 +1,7 @@
 public interface CarInterface {
 
-    void gas();
-    void brake();
-    void description();
+    public void gas();
+    public void brake();
+    public void description();
 }
 
