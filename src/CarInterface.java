@@ -1,7 +1,7 @@
-public interface CarInterface {
+public interface CarInterface{
 
-    public void gas();
-    public void brake();
-    public void description();
+    public void gas(int gas);
+    public void brake(int brake);
+    public void description(String model, int speed, String color);
 }
 
